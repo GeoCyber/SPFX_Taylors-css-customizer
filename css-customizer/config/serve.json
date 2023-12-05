@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://taylorsedu.sharepoint.com/sites/THE-STG/SitePages/Home.aspx",
+      "customActions": {
+        "384ea3bb-b554-45fd-abd8-2107351a35b5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "customizer": {
+      "pageUrl": "https://taylorsedu.sharepoint.com/sites/PoliciesProcedures-STG/SitePages/Policies-Procedures-&-Documents.aspx",
+      "customActions": {
+        "384ea3bb-b554-45fd-abd8-2107351a35b5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
